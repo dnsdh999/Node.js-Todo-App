@@ -1,2 +1,2 @@
 # Node.js-Todo-App
-node.js를 이용한 할일리스트 구현입니다.
+mongodb, node.js를 사용하여 개발한 todo list
