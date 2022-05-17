@@ -51,9 +51,9 @@
       <script>
 
         $('.chat').click(function(e){
-          // var 작성자 = e.target.dataset.id;
-          // var 채팅방이름 = prompt('채팅방의 이름을 입력하세요', '기본 값 문자열');
-          // window.location.replace('/chatroom?writer=' + 작성자 +'&chattitle=' + 채팅방이름);
+          var 작성자 = e.target.dataset.id;
+          var 채팅방이름 = prompt('채팅방의 이름을 입력하세요', '기본 값 문자열');
+          window.location.replace('/chatroom?writer=' + 작성자 +'&chattitle=' + 채팅방이름);
           var id = e.target.dataset.id;
           var 채팅방이름 = prompt('채팅방의 이름을 입력하세요', '기본 값 문자열');
           if(채팅방이름 != '' || 채팅방이름 == false){
